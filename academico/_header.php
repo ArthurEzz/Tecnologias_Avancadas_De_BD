@@ -26,6 +26,7 @@ $titulo_pagina = isset($titulo_pagina) ? $titulo_pagina : 'Sistema Acadêmico';
     <a href="alunos_lista.php"       class="<?php echo $pagina_atual==='alunos'     ? 'active':'' ?>">Alunos</a>
     <a href="professores_lista.php"  class="<?php echo $pagina_atual==='professores'? 'active':'' ?>">Professores</a>
     <a href="turmas_lista.php"       class="<?php echo $pagina_atual==='turmas'     ? 'active':'' ?>">Turmas</a>
+    <a href="busca_avancada.php"     class="<?php echo $pagina_atual==='busca'      ? 'active':'' ?>">🔍 Busca</a>
     <a href="alunocadas.php"         class="<?php echo $pagina_atual==='cad_aluno'  ? 'active':'' ?>">+ Aluno</a>
     <a href="professorcadas.php"     class="<?php echo $pagina_atual==='cad_prof'   ? 'active':'' ?>">+ Professor</a>
     <a href="turmacadas.php"         class="<?php echo $pagina_atual==='cad_turma'  ? 'active':'' ?>">+ Turma</a>
